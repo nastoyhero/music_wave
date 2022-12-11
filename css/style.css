@@ -1,0 +1,227 @@
+.paddingtxt {
+  padding-top: 20px;
+  z-index: 2;
+}
+@media (max-width:300px) {
+  img {
+    max-width: 100%
+  }
+  
+ #body {
+  height: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  justify-content: center;
+ }
+ }
+ 
+.paddinghead {
+  position: relative;
+  top: -60px;
+  z-index: 2;
+}
+.zabout {
+  z-index: 2;
+}
+.paddinglogo {
+  padding-top: 34px;
+}
+.paddinglogtxt {
+  position: relative;
+  padding-top: 45px;
+  left: -30px;
+}
+.sizetxt100 {
+  font-size: 70px;
+  line-height: 1.2;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Inter средний", sans-serif;
+  font-weight: 500;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+.paddingwave {
+  top: 430px;
+  position: absolute;
+  z-index: auto;
+}
+.sizetxtp {
+  font-size: 25px;
+  padding-top: 30px;
+}
+.sizetxtabout {
+  font-size: 40px;
+  padding-top: 50px;
+}
+.paddingvk {
+  position: relative;
+  padding-top: 170px;
+}
+.buttonstart {
+  width: 210px;
+  height: 55.45px;
+  left: 131.21px;
+  font-size: 20px;
+  font-weight: bold;
+
+  background: rgba(215, 227, 227, 0.95);
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+}
+.leftpaddingmenu {
+  left: 1030px;
+  top: -80px;
+  position: relative;
+}
+.leftpaddingsearch {
+  left: 970px;
+  top: -70px;
+  position: relative;
+}
+.nolinebutton {
+  border: 0;
+}
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center; /* центрируем содержимое кнопки */
+  cursor: pointer;
+  z-index: 2;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+  z-index: 3;
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  left: -100%;
+  top: 0px;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(215, 227, 227, 0.95);
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+/* элементы меню */
+.menu__item {
+  z-index: 0;
+  display: block;
+  padding: 12px 24px;
+  color: rgb(0, 0, 0);
+  font-family: "Inter средний", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: rgba(215, 227, 227, 0.95);
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: 0.25s;
+}
+.menu__box {
+  transition-duration: 0.25s;
+}
+.menu__item {
+  transition-duration: 0.25s;
+}
+
+/* поиск */
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(215, 227, 227, 0.95);
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+  color: black;
+}
+.search-btn {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search-btn > i {
+  font-size: 20px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+}
