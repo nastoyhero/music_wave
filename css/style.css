@@ -6,7 +6,6 @@
   img {
     max-width: 100%
   }
-} 
  #body {
   height: auto;
   max-width: 100%;
@@ -16,7 +15,7 @@
    background-size: 100%;
  }
  
- 
+}
 .paddinghead {
   position: relative;
   top: -60px;
