@@ -1,6 +1,7 @@
 body {
   background-image: url(soapwall.png);
-  background-size: 100%;
+     background-size: cover;
+    background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
   padding-left: 40px;
