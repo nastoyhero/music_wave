@@ -2,7 +2,7 @@
   padding-top: 20px;
   z-index: 2;
 }
-@media (max-width:300px) {
+@media (max-width:576px) {
   img {
     max-width: 100%
   }
@@ -15,7 +15,13 @@
   justify-content: center;
    background-size: 100%;
  }
- }
+  .elfsight-app-6ca4ce43-75c8-4f74-b136-6b8918d3b950 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
  
 .paddinghead {
   position: relative;
