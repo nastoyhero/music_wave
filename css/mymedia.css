@@ -1,15 +1,17 @@
 body {
-  background-image: url(soapwall.png);
-     background-size: cover;
+/*   background-image: url(soapwall.png); */
+     background-size: 1280px;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
   padding-left: 40px;
   padding-right: 26px;
   font-weight: 800;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 @media screen and (max-width:576px) {
   body {
-    background-image: none;
+    background-image: url(soapwall.png);
 
     background-color: black;
   }
