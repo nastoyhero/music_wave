@@ -1,12 +1,11 @@
 body {
-  background-image: url(wallpaperbill.jpg);
+   background-image: url(wallpaperbill.jpg);
   font-family: "Inter", sans-serif;
   color: black;
   padding-left: 40px;
   padding-right: 26px;
   font-weight: 800;
   width: 100%;
-     background-size: cover;
 }
 .tabls {
   position: relative;
