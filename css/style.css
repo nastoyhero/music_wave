@@ -51,6 +51,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   width: 100%;
+  min-width: 1240px;
 }
 .paddingwave {
   top: 430px;
