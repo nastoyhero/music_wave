@@ -1,12 +1,19 @@
 body {
   background-image: url(soapwall.png);
      background-size: cover;
-    background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
   padding-left: 40px;
   padding-right: 26px;
   font-weight: 800;
+}
+@media screen and (max-width:576px) {
+  body {
+    background-image: none;
+
+    background-color: black;
+  }
+  
 }
 .paddingtxt {
   padding-top: 33px;
