@@ -1,6 +1,7 @@
-@media screen and (max-width: 576px)
+@media screen and (max-width: 576px) {
    body{
       background-image:  url(wallpaperbill.jpg);
+   }
 }
 body {
    background-image: url(wallpaperbill.jpg);
@@ -10,8 +11,8 @@ body {
   padding-right: 26px;
   font-weight: 800;
   width: 100%;
-   background-size: 1280px;
-   background-repeat: no repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
    min-height: 100vh;
 }
 .tabls {
