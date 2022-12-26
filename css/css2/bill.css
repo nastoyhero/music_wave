@@ -6,7 +6,8 @@ body {
   padding-right: 26px;
   font-weight: 800;
   width: 100%;
-  background-size: 100%;
+     background-size: cover;
+    background-repeat: no-repeat;
 }
 .tabls {
   position: relative;
